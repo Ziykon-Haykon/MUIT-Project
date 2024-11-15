@@ -50,7 +50,9 @@ function validatePasswords() {
 }
 
  function connectToWiFi() {
-    alert("Функция в разработке")
+    const menu = document.getElementById("dropdownMenuCard");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+
  }
 
 
